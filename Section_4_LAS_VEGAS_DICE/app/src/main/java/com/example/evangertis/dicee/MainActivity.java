@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button rollButton;
-        rollButton = (Button) findViewById(R.id.rollbutton);
+        rollButton = (Button) findViewById(R.id.rollButton);
 
         final ImageView leftDice = (ImageView) findViewById(R.id.image_leftDice);
         final ImageView rightDice = (ImageView) findViewById(R.id.image_rightDice);
